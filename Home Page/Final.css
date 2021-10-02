@@ -1,0 +1,543 @@
+#sign{
+    padding: 16px 19px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: right;
+    float: right;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal_1 {
+  display: none; /* Hidden by default */
+  
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal_1-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.login-btn {
+  
+  text-align: right;
+  float: right;
+}
+/* /* The message box is shown when the user clicks on the password */
+
+h2{
+   
+    padding: 8px 194px;
+    border: 0px solid rgb(170, 20, 20);
+    color: red;
+    background-color: whitesmoke;
+    margin: 17px;
+    font-size: 4rem;
+    border-radius: 57px;
+    cursor: pointer;
+    text-align: center;
+    float: center;
+}
+.head{
+  padding: 8px 194px;
+  border: 0px solid rgb(170, 20, 20);
+  color: yellow;
+ 
+  margin: 17px;
+  font-size: 4rem;
+  border-radius: 57px;
+  cursor: pointer;
+  text-align: center;
+  float: center;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 4.2rem;
+
+    
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    padding: 2px 3px;
+}
+#welcome{
+    padding: 50px 3px;
+}
+ .ordernow{
+    padding: 18px 27px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+    margin-left: 46%;
+    margin-right: 31%;
+}
+.nav{
+    text-align: left;
+
+} 
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: right;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 4.5rem;
+    text-align: right;
+}
+
+#navbar ul li a{
+    color: white;
+    font-size: xx-large;
+    font-size: 2.2rem;
+    
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: right;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: paleturquoise;
+} 
+.homepage{
+    background: url("img for gead.jpg") no-repeat center center/cover;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create a column layout with Flexbox */
+  .row {
+    display: flex;
+  }
+  
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+    padding: 5px 0;
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    flex: 65%;
+    padding: 15px;
+  }
+  
+  /* Style the search box */
+  #mySearch {
+    width: 60%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 9px;
+    text-decoration: none;
+    color: white;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+  
+  /* Services Section */
+  #services{
+      margin: 34px;
+      display: flex;
+  }
+  #services .box{ 
+      border: 2px solid brown;
+      padding: 34px;
+      margin: 2px 55px;
+      border-radius: 28px;
+      background: #f2f2f2;
+      margin-bottom: 20px;
+      font-size:x-large ;
+  }
+  
+  #services .box img{ 
+     height: 160px;
+     margin: auto;
+     display: block;
+  }
+  
+  #services .box p{
+      font-family: 'Bree Serif', serif;
+      font-size: 30px;
+  
+  } 
+  
+  /* Clients Section */
+  #client-section{ 
+      position: relative;
+  }
+  
+  #client-section::before{
+   content: "";
+   position: absolute;
+   background: url('/contact us.jpg')no-repeat center center/cover;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.3;
+   color: black;
+  }
+  
+  #clients{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+  }
+  
+  .client-item{
+      padding: 14px;
+      font-size: 1.7rem;
+      color: white;
+      font-weight: 500;
+  }
+  .h-primary_center{
+      color: white;
+      text-align: center;
+      font-size: 3.5rem;
+  }
+  
+  
+  
+  
+  /* Contact Section */
+  #contact{
+      position: relative;
+      
+  }
+  #contact::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.7;
+      background: url('pizza1.jpg') no-repeat center center/cover;
+      
+  
+  }
+  #contact-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 34px;
+  }
+  #contact-box input, 
+  #contact-box textarea{
+      width: 100%;
+      padding: 1rem;
+      border-radius: 9px;
+      font-size: 1.5rem;
+  } 
+  
+  #contact-box form{
+      width: 40%;
+  }
+  
+  #contact-box label{
+     font-size: 1.8lrem;
+     font-family: 'Bree Serif', serif;
+  
+  }
+  .client-from{
+      background: url("contact.jpg") no-repeat center center/cover;
+      color: white;
+  }
+  .submit_{
+    padding: 6px 12px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: -34px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  
+  footer{
+      background: black;
+      color: white;
+      padding: 9px 20px;
+  }
+  
+  /* Utility Classes */
+  .h-primary{
+      font-family: 'Bree Serif', serif;
+      font-size: 4rem;
+      padding: 12px;
+  }
+  
+  .h-secondary{
+      font-family: 'Bree Serif', serif;
+      font-size: 2.5rem;
+      padding: 12px;
+  }
+  
+  .btn{
+      padding: 6px 20px;
+      border: 2px solid white;
+      background-color: brown;
+      color: white;
+      margin: 17px;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      cursor:pointer;
+      
+  }
+  
+  .center{
+      text-align: center;
+  }
